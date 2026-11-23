@@ -1,0 +1,7 @@
+Django>=5.0,<6.0
+requests>=2.32.0
+python-dotenv>=1.0.1
+PyYAML>=6.0.2
+jieba==0.42.1
+openpyxl>=3.1,<4
+markitdown[docx,xlsx,xls,pdf,pptx]==0.1.9

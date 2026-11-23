@@ -1,0 +1,26 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Dependencies and Python bytecode
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Runtime databases, logs, uploaded documents and backups
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+*.log
+backend/data/
+backend/backups/
+backend/logs/
+.index/
+
+# Local assistant state and generated packages
+.workbuddy-ai/
+outputs/
+llm-wiki-portal-lan-*.zip
